@@ -17,9 +17,14 @@
  - ### docker pull
     -- it pulls the docker image from docker hub
    
- - ### docker volume create volume_database && docker run -v volume_database:/data/db -p 27027:27017 mongo
+ - ### docker volume create volume_database
+ - ### docker run -v volume_database:/data/db -p 27027:27017 mongo
     -- it runs the docker image along with creating a volume
-    
 
+ - ### docker network create ntw_name
+ - ### docker run -p 3000:3000 -- name backend -- network ntw_name <image_tag>
+
+
+ 
 ## pull and run docker images on aws ec2 machine
 https://gist.github.com/ogre-yoga/04c6cc817e9f95ee788b3893db93fa3a
