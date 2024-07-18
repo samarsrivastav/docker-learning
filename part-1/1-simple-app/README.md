@@ -16,3 +16,5 @@
 
  - docker pull
     -- it pulls the docker image from docker hub
+
+<script src="https://gist.github.com/ogre-yoga/04c6cc817e9f95ee788b3893db93fa3a.js"></script>
