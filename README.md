@@ -5,20 +5,19 @@
  - node index.js
 
 ## Some Docker commands:
- - docker build . -t test_app
+ - ### docker build . -t test_app
     -- it will create a container with the name test_app
 
- - docker run -p 3000:3000 test_app
+ - ### docker run -p 3000:3000 test_app
     -- it will run the container test_app on port 3000
 
- - docker images
+ - ###  docker images
     -- it lists all the images 
 
- - docker pull
+ - ### docker pull
     -- it pulls the docker image from docker hub
    
- - docker volume create volume_database
- - docker run -v volume_database:/data/db -p 27027:27017 mongo
+ - ### docker volume create volume_database && docker run -v volume_database:/data/db -p 27027:27017 mongo
     -- it runs the docker image along with creating a volume
     
 
