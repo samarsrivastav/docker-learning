@@ -17,6 +17,7 @@
  - docker pull
     -- it pulls the docker image from docker hub
    
+ - docker volume create volume_database
  - docker run -v volume_database:/data/db -p 27027:27017 mongo
     -- it runs the docker image along with creating a volume
     
