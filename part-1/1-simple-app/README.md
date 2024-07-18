@@ -18,4 +18,4 @@
     -- it pulls the docker image from docker hub
 
 ## pull and run docker images on aws ec2 machine
-<script src="https://gist.github.com/ogre-yoga/04c6cc817e9f95ee788b3893db93fa3a.js"></script>
+https://gist.github.com/ogre-yoga/04c6cc817e9f95ee788b3893db93fa3a
